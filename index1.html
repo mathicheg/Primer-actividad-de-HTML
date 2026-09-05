@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera pagina web</title>
+</head>
+<body>
+    <header>
+        Primera pagina web
+    </header>
+    <nav>
+        Programado con HTML
+    </nav>
+    <footer>
+        Gracias por visitar
+    </footer>
+
+    <h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque facere est, consectetur in labore eius! Minima at suscipit repellat nostrum reiciendis ratione totam expedita quasi eveniet animi! Mollitia, in sed.
+    </h2>
+    <h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laborum pariatur fugiat suscipit mollitia sapiente, exercitationem distinctio assumenda saepe ex labore nostrum, ea amet quae veniam asperiores itaque beatae ad.
+    </h3>
+    <img src="Universidad_de_Lima_logo.png" alt="Logo de la UL" width="250px">
+
+    <table>
+    <caption>Horario de la universidad</caption>
+    <thead>
+        <tr><th>Turno</th><th>Horario</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Turno mañana</td><td>7am a 1pm</td></tr>
+        <tr><td>Almuerzo</td><td>1pm a 2pm</td></tr>
+        <tr><td>Turno tarde</td><td>2pm a 5pm</td></tr>
+        <tr><td>Turno noche</td><td>5pm a 10pm</td></tr>
+    </tbody>
+    </table>
+
+    <form method="post">
+        <label for="codigo">Codigo: </label> &Tab;&Tab;
+        <input type="text" name="codigo" id="codigo" required />
+        <br/>
+        <label for="nombres">Nombres: </label>
+        <input type="text" name="nombres" id="nombres" required />
+        <br/>
+        <label for="correo electronico">Correo electronico: </label>
+        <input type="email" name="Correo electronico" id="codigos" required />
+        <br/>
+        Género:
+        <br/>
+        <label for="gen">Masculino: </label>
+        <input type="radio" id="g_masculino" name="genero" value="M" />
+        <label for="gen">Femenino: </label>
+        <input type="radio" id="g_femenino" name="genero" value="F" />
+        <label for="gen">Otro: </label>
+        <input type="radio" id="g_otro" name="genero" value="O" />
+        <br/>
+        Intereses
+        <br/>
+        <label for="terminado">¿Aceptas haber terminado de rellenar?</label>
+        <input type="checkbox" id="terminado" name="terminado" value="Aceptas haber terminado?" />
+        <br/>
+        Carrera:
+        <select id="Carrea elegida" name="carrera elegida">
+            <option value="Ingenieria">Ingenieria</option>
+            <option value="Comunicaciones">Comunicaciones</option>
+            <option value="Negocios">Negocios</option>
+            <option value="Derecho">Derecho</option>
+        </select>
+        <br/>
+        <input type="submit" />
+    </form>
+
+</body>
+</html>

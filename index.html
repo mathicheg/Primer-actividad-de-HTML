@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <form method="post">
+        <label for="codigo">Codigo: </label> &Tab;&Tab;
+        <input type="text" name="codigo" id="codigo" required />
+        <br/>
+        <label for="nombres">Nombres: </label>
+        <input type="text" name="nombres" id="nombres" required />
+        <br/>
+        <label for="apellidos">Apellidos: </label>
+        <input type="text" name="apellidos" id="apellidos" required />
+        <br/>
+        <label for="correo electronico">Correo electronico: </label>
+        <input type="email" name="Correo electronico" id="codigos" required />
+        <br/>
+        Género:
+        <br/>
+        <label for="gen">Masculino: </label>
+        <input type="radio" id="g_masculino" name="genero" value="M" />
+        <label for="gen">Femenino: </label>
+        <input type="radio" id="g_femenino" name="genero" value="F" />
+        <label for="gen">Otro: </label>
+        <input type="radio" id="g_otro" name="genero" value="O" />
+        <br/>
+        Intereses
+        <br/>
+        <label for="intereses1">Ingeniería de Software</label>
+        <input type="checkbox" id="intereses1" name="intereses1" value="SE" />
+        <label for="intereses2">Ciencia de la Computación</label>
+        <input type="checkbox" id="intereses2" name="intereses2" value="CS" />
+        <label for="intereses3">Inteligencia Artificial</label>
+        <input type="checkbox" id="intereses3" name="intereses3" value="AI" />
+        <label for="intereses1">Data Science</label>
+        <input type="checkbox" id="intereses4" name="intereses4" value="DS" />
+        <br/>
+        Semestre de Inicio:
+        <select id="inicio" name="Inicio">
+            <option value="2026-1">2026-1</option>
+            <option value="2026-2">2026-2</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="submit" />
+    </form>
+
+</body>
+</html>
